@@ -1,298 +1,274 @@
-<html lang="en"><head>
-    <meta charset="UTF-8">
-    <title>FriendFinder</title>
-  
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"">
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  
-    <!-- Font Awesome Glyphicons -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-  
-    <!-- Chosen -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
-  
-  </head>
-  
-  <body>
-  
-    <div class="container">
-  
-      <h3>Question 1</h3>
-        <h4>Placeholder</h4>
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Choose Value
-          </button>
-          <ul class="dropdown-menu" id="q1" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" data-value="1">1</a></li>
-            <li><a class="dropdown-item" data-value="2">2</a></li>
-            <li><a class="dropdown-item" data-value="3">3</a></li>
-            <li><a class="dropdown-item" data-value="4">4</a></li>
-            <li><a class="dropdown-item" data-value="5">5</a></li>
-          </ul>
-        </div>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-        <h3>Question 2</h3>
-        <h4>Placeholder</h4>
-        <div style="margin-bottom: 20px" class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Choose Value
-          </button>
-          <ul class="dropdown-menu" id="q2" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" data-value="1">1</a></li>
-            <li><a class="dropdown-item" data-value="2">2</a></li>
-            <li><a class="dropdown-item" data-value="3">3</a></li>
-            <li><a class="dropdown-item" data-value="4">4</a></li>
-            <li><a class="dropdown-item" data-value="5">5</a></li>
-          </ul>
-        </div>
+<head>
+  <meta charset="utf-8">
+  <title>Survey</title>
 
-        <h3>Question 3</h3>
-        <h4>Placeholder</h4>
-        <div style="margin-bottom: 20px" class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Choose Value
-          </button>
-          <ul class="dropdown-menu" id="q3" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" data-value="1">1</a></li>
-            <li><a class="dropdown-item" data-value="2">2</a></li>
-            <li><a class="dropdown-item" data-value="3">3</a></li>
-            <li><a class="dropdown-item" data-value="4">4</a></li>
-            <li><a class="dropdown-item" data-value="5">5</a></li>
-          </ul>
-        </div>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
 
-        <h3>Question 4</h3>
-        <h4>Placeholder</h4>
-        <div style="margin-bottom: 20px" class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Choose Value
-          </button>
-          <ul class="dropdown-menu" id="q4" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" data-value="1">1</a></li>
-            <li><a class="dropdown-item" data-value="2">2</a></li>
-            <li><a class="dropdown-item" data-value="3">3</a></li>
-            <li><a class="dropdown-item" data-value="4">4</a></li>
-            <li><a class="dropdown-item" data-value="5">5</a></li>
-          </ul>
-        </div>
-
-
-        <h3>Question 5</h3>
-        <h4>Placeholder</h4>
-        <div style="margin-bottom: 20px" class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Choose Value
-          </button>
-          <ul class="dropdown-menu" id="q5" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" data-value="1">1</a></li>
-            <li><a class="dropdown-item" data-value="2">2</a></li>
-            <li><a class="dropdown-item" data-value="3">3</a></li>
-            <li><a class="dropdown-item" data-value="4">4</a></li>
-            <li><a class="dropdown-item" data-value="5">5</a></li>
-          </ul>
-        </div>
-
-
-        <h3>Question 6</h3>
-        <h4>Placeholder</h4>
-        <div style="margin-bottom: 20px" class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Choose Value
-          </button>
-          <ul class="dropdown-menu" id="q6" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" data-value="1">1</a></li>
-            <li><a class="dropdown-item" data-value="2">2</a></li>
-            <li><a class="dropdown-item" data-value="3">3</a></li>
-            <li><a class="dropdown-item" data-value="4">4</a></li>
-            <li><a class="dropdown-item" data-value="5">5</a></li>
-          </ul>
-        </div>
-
-
-        <h3>Question 7</h3>
-        <h4>Placeholder</h4>
-        <div style="margin-bottom: 20px" class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Choose Value
-          </button>
-          <ul class="dropdown-menu" id="q7" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" data-value="1">1</a></li>
-            <li><a class="dropdown-item" data-value="2">2</a></li>
-            <li><a class="dropdown-item" data-value="3">3</a></li>
-            <li><a class="dropdown-item" data-value="4">4</a></li>
-            <li><a class="dropdown-item" data-value="5">5</a></li>
-          </ul>
-        </div>
-
-
-        <h3>Question 8</h3>
-        <h4>Placeholder</h4>
-        <div style="margin-bottom: 20px" class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Choose Value
-          </button>
-          <ul class="dropdown-menu" id="q8" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" data-value="1">1</a></li>
-            <li><a class="dropdown-item" data-value="2">2</a></li>
-            <li><a class="dropdown-item" data-value="3">3</a></li>
-            <li><a class="dropdown-item" data-value="4">4</a></li>
-            <li><a class="dropdown-item" data-value="5">5</a></li>
-          </ul>
-        </div>
-
-
-        <h3>Question 9</h3>
-        <h4>Placeholder</h4>
-        <div style="margin-bottom: 20px" class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Choose Value
-          </button>
-          <ul class="dropdown-menu" id="q9" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" data-value="1">1</a></li>
-            <li><a class="dropdown-item" data-value="2">2</a></li>
-            <li><a class="dropdown-item" data-value="3">3</a></li>
-            <li><a class="dropdown-item" data-value="4">4</a></li>
-            <li><a class="dropdown-item" data-value="5">5</a></li>
-          </ul>
-        </div>
-
-
-        <h3>Question 10</h3>
-        <h4>Placeholder</h4>
-        <div style="margin-bottom: 20px" class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Choose Value
-          </button>
-          <ul class="dropdown-menu" id="q10" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" value="1">1</a></li>
-            <li><a class="dropdown-item" value="2">2</a></li>
-            <li><a class="dropdown-item" value="3">3</a></li>
-            <li><a class="dropdown-item" value="4">4</a></li>
-            <li><a class="dropdown-item" value="5">5</a></li>
-          </ul>
-        </div>  
+<body>
+  <div class="container">
+    <h1 style="border-bottom: 1px solid #EEEEEE;padding-bottom: 20px;margin-bottom: 20px">
+      Survey Questions
+    </h1>
+    <h2 style=" margin-bottom 10px">
+      About You
+    </h2>
+    <div class="form-group" style="border-bottom: 1px solid #EEEEEE;padding-bottom: 20px;margin-bottom: 20px">
+      <label for="participantName">Your Name (Required)</label>
+      <input type="text" class="form-control" id="participantName" placeholder="Enter Name">
       <br>
-  
-      <!-- Submit Button -->
-      <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
-       Submit</button>
-  
-      <hr>
-      <footer class="footer">
-        <div class="container">
-          <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
-        </div>
-      </footer>
-  
+      <label for="participantImage">Link to Photo Image (Required)</label>
+      <input type="text" class="form-control" id="participantImage" placeholder="Paste Image Link Here">
     </div>
-  
-    <!-- Modal -->
-    <div id="results-modal" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-  
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">×</button>
-            <h2 class="modal-title"><strong>Best Match</strong></h2>
-          </div>
-          <div class="modal-body">
-            <h2 id="match-name"></h2>
-            <img id="match-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!-- Buttons -->
+    <div class="form-group">
+      <h3>Question 1</h3>
+      <h7>How much do you like cheese?</h7>
+      <div style="margin-bottom: 20px" class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Choose Value
+        </button>
+        <ul class="dropdown-menu" id="q1" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" data-value="1">1</a></li>
+          <li><a class="dropdown-item" data-value="2">2</a></li>
+          <li><a class="dropdown-item" data-value="3">3</a></li>
+          <li><a class="dropdown-item" data-value="4">4</a></li>
+          <li><a class="dropdown-item" data-value="5">5</a></li>
+        </ul>
+      </div>
+
+      <h3>Question 2</h3>
+      <h7>My hobbies include leaving the house</h7>
+      <div style="margin-bottom: 20px" class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Choose Value
+        </button>
+        <ul class="dropdown-menu" id="q2" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" data-value="1">1</a></li>
+          <li><a class="dropdown-item" data-value="2">2</a></li>
+          <li><a class="dropdown-item" data-value="3">3</a></li>
+          <li><a class="dropdown-item" data-value="4">4</a></li>
+          <li><a class="dropdown-item" data-value="5">5</a></li>
+        </ul>
+      </div>
+
+      <h3>Question 3</h3>
+      <h7>I enjoy homecooked meals more than eating out</h7>
+      <div style="margin-bottom: 20px" class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Choose Value
+        </button>
+        <ul class="dropdown-menu" id="q3" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" data-value="1">1</a></li>
+          <li><a class="dropdown-item" data-value="2">2</a></li>
+          <li><a class="dropdown-item" data-value="3">3</a></li>
+          <li><a class="dropdown-item" data-value="4">4</a></li>
+          <li><a class="dropdown-item" data-value="5">5</a></li>
+        </ul>
+      </div>
+
+      <h3>Question 4</h3>
+      <h7>I thoroughly enjoy horror movies</h7>
+      <div style="margin-bottom: 20px" class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Choose Value
+        </button>
+        <ul class="dropdown-menu" id="q4" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" data-value="1">1</a></li>
+          <li><a class="dropdown-item" data-value="2">2</a></li>
+          <li><a class="dropdown-item" data-value="3">3</a></li>
+          <li><a class="dropdown-item" data-value="4">4</a></li>
+          <li><a class="dropdown-item" data-value="5">5</a></li>
+        </ul>
+      </div>
+
+
+      <h3>Question 5</h3>
+      <h7>I enjoy playing video games to unwind</h7>
+      <div style="margin-bottom: 20px" class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Choose Value
+        </button>
+        <ul class="dropdown-menu" id="q5" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" data-value="1">1</a></li>
+          <li><a class="dropdown-item" data-value="2">2</a></li>
+          <li><a class="dropdown-item" data-value="3">3</a></li>
+          <li><a class="dropdown-item" data-value="4">4</a></li>
+          <li><a class="dropdown-item" data-value="5">5</a></li>
+        </ul>
+      </div>
+
+
+      <h3>Question 6</h3>
+      <h7>I enjoy the taste of beer</h7>
+      <div style="margin-bottom: 20px" class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Choose Value
+        </button>
+        <ul class="dropdown-menu" id="q6" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" data-value="1">1</a></li>
+          <li><a class="dropdown-item" data-value="2">2</a></li>
+          <li><a class="dropdown-item" data-value="3">3</a></li>
+          <li><a class="dropdown-item" data-value="4">4</a></li>
+          <li><a class="dropdown-item" data-value="5">5</a></li>
+        </ul>
+      </div>
+
+
+      <h3>Question 7</h3>
+      <h7>Competition motivates me to improve</h7>
+      <div style="margin-bottom: 20px" class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Choose Value
+        </button>
+        <ul class="dropdown-menu" id="q7" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" data-value="1">1</a></li>
+          <li><a class="dropdown-item" data-value="2">2</a></li>
+          <li><a class="dropdown-item" data-value="3">3</a></li>
+          <li><a class="dropdown-item" data-value="4">4</a></li>
+          <li><a class="dropdown-item" data-value="5">5</a></li>
+        </ul>
+      </div>
+
+
+      <h3>Question 8</h3>
+      <h7>I enjoy strategic board games</h7>
+      <div style="margin-bottom: 20px" class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Choose Value
+        </button>
+        <ul class="dropdown-menu" id="q8" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" data-value="1">1</a></li>
+          <li><a class="dropdown-item" data-value="2">2</a></li>
+          <li><a class="dropdown-item" data-value="3">3</a></li>
+          <li><a class="dropdown-item" data-value="4">4</a></li>
+          <li><a class="dropdown-item" data-value="5">5</a></li>
+        </ul>
+      </div>
+
+
+      <h3>Question 9</h3>
+      <h7>When it comes to making Survey questions, I struggle to come up with 10.</h7>
+      <div style="margin-bottom: 20px" class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Choose Value
+        </button>
+        <ul class="dropdown-menu" id="q9" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" data-value="1">1</a></li>
+          <li><a class="dropdown-item" data-value="2">2</a></li>
+          <li><a class="dropdown-item" data-value="3">3</a></li>
+          <li><a class="dropdown-item" data-value="4">4</a></li>
+          <li><a class="dropdown-item" data-value="5">5</a></li>
+        </ul>
+      </div>
+
+
+      <h3>Question 10</h3>
+      <h7>Sleep is for the weak</h7>
+      <div style="margin-bottom: 20px" class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Choose Value
+        </button>
+        <ul class="dropdown-menu" id="q10" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" value="1">1</a></li>
+          <li><a class="dropdown-item" value="2">2</a></li>
+          <li><a class="dropdown-item" value="3">3</a></li>
+          <li><a class="dropdown-item" value="4">4</a></li>
+          <li><a class="dropdown-item" value="5">5</a></li>
+        </ul>
+      </div>
+
+      <!-- Submit Button HTML -->
+      <button style="margin-bottom: 300px; cursor: pointer" type="button" class="btn btn-primary btn-lg btn-block" id="submit">Submit</button>
+
+      <div class="modal fade" id="complete-form" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h3 style="color: red">Please complete form before submitting.</h3>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
           </div>
         </div>
-  
       </div>
     </div>
-  
-    <script type="text/javascript">
-      // Chosen CSS
-      var config = {
-        ".chosen-select": {},
-        ".chosen-select-deselect": {
-          allow_single_deselect: true
-        },
-        ".chosen-select-no-single": {
-          disable_search_threshold: 10
-        },
-        ".chosen-select-no-results": {
-          no_results_text: "Oops, nothing found!"
-        },
-        ".chosen-select-width": {
-          width: "95%"
-        }
-      };
-  
-      for (var selector in config) {
-        $(selector).chosen(config[selector]);
-      }
-  
-      // Capture the form inputs
-      $("#submit").on("click", function(event) {
-        event.preventDefault();
-  
-        // Form validation
-        function validateForm() {
-          var isValid = true;
-          $(".form-control").each(function() {
-            if ($(this).val() === "") {
-              isValid = false;
-            }
-          });
-  
-          $(".chosen-select").each(function() {
-  
-            if ($(this).val() === "") {
-              isValid = false;
-            }
-          });
-          return isValid;
-        }
-  
-        // If all required fields are filled
-        if (validateForm()) {
-          // Create an object for the user"s data
-          var userData = {
-            name: $("#name").val(),
-            photo: $("#photo").val(),
-            scores: [
-              $("#q1").val(),
-              $("#q2").val(),
-              $("#q3").val(),
-              $("#q4").val(),
-              $("#q5").val(),
-              $("#q6").val(),
-              $("#q7").val(),
-              $("#q8").val(),
-              $("#q9").val(),
-              $("#q10").val()
-            ]
-          };
-  
-          // AJAX post the data to the friends API.
-          $.post("/api/friends", userData, function(data) {
-  
-            // Grab the result from the AJAX post so that the best match's name and photo are displayed.
-            $("#match-name").text(data.name);
-            $("#match-img").attr("src", data.photo);
-  
-            // Show the modal with the best match
-            $("#results-modal").modal("toggle");
-  
-          });
-        } else {
-          alert("Please fill out all fields before submitting!");
+  </div>
+</body>
+
+<footer class="footer">
+  <div class="container">
+    <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/erichung94/FriendFinder">GitHub Repo</a></p>
+  </div>
+</footer>
+
+<script type="text/javascript">
+  // Code for making the value appear in the dropdown when chosen
+  $(".dropdown-menu li a").click(function() {
+    $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
+    $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
+  });
+  $("#submit").on("click", function(event) {
+    event.preventDefault();
+    function formComplete() {
+      var isValid = true;
+      $(".form-control").each(function() {
+        if ($(this).val() === "") {
+          isValid = false;
         }
       });
-    </script>
-  
-  
-  
-  
-  </body></html>
+      $("#name").each(function() {
+        if ($(this).val() === "") {
+          isValid = false;
+        }
+      });
+      $("#photo").each(function() {
+        if ($(this).val() === "") {
+          isValid = false;
+        }
+      });
+      return isValid;
+    }
+    if (formComplete()) {
+      var newFriend = {
+        name: $("#participantName").val().trim(),
+        photo: $("#participantImage").val().trim(),
+        scores: [
+          $("#q1").val(),
+          $("#q2").val(),
+          $("#q3").val(),
+          $("#q4").val(),
+          $("#q5").val(),
+          $("#q6").val(),
+          $("#q7").val(),
+          $("#q8").val(),
+          $("#q9").val(),
+          $("#q10").val()
+        ]
+      };
+      $.post("/api/friends", newFriend, function(data) {
+        $("#friend-match-name").text(data.name);
+        $("#friend-match-photo").attr("src", data.photo);
+        $("#user-match").modal("toggle");
+      });
+    } else {
+      $("#complete-form").modal("toggle");
+    }
+    $(".form-control").val("");
+  });
+</script>
+
+</html>
